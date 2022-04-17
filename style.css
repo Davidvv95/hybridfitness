@@ -1,0 +1,271 @@
+/*
+====================
+====================
+MAIN STYLING
+====================
+====================
+ */
+ .index-bg-img {
+   background-image: url(img/index-bg-img.jpg);
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover;
+   opacity: 0.8;
+ }
+.main-center-align {
+  height: 80vh;
+  padding-top: calc(40vh - (166px + 1.25rem));
+}
+.main-center-align h1 {
+  font-weight: 600;
+}
+.main-center-align p {
+  font-size: 1.5rem;
+  font-weight: 400;
+
+}
+
+/*
+====================
+====================
+ABOUT STYLING
+====================
+====================
+ */
+.about-main {
+  min-height: 80vh;
+}
+
+.carousel-item img { /*Contain Carousel Height*/
+  object-fit: cover;
+  object-position: center;
+  height: 60vh;
+}
+
+.carousel h5 {
+  font-size: 2.5rem;
+  color: #fff;
+  text-shadow: 3px 3px 6px #111;
+}
+
+.carousel p {
+  font-size: 2rem;
+  color: #fff;
+  text-shadow: 3px 3px 6px #111;
+}
+
+#row1-index {
+  background-color: #212529;
+}
+
+.column1-flex {
+  display: flex;
+  min-height: 50vh;
+  width: 100%;
+  color: #fff;
+  justify-content: center;
+  align-items: center;
+}
+
+.column1-flex p {
+  font-size: 2rem;
+}
+
+.column1-flex h5 {
+  font-size: 3rem;
+}
+
+.column1-flex button {
+  font-size: 2rem;
+  color: #fff;
+  border-color: #fff;
+  border-width: 2px;
+}
+
+.column2-flex {
+  display: flex;
+  flex-wrap: wrap;
+  min-height: 50vh;
+  width: 100%;
+  color: #333;
+}
+
+.column2-flex article h5 {
+  font-size: 2rem;
+}
+
+.access-hover {
+  color: #ff9900;
+  font-size: 2rem;
+  transition: 0.2s ease-in-out all;
+}
+
+.access-hover a {
+  color: #ff9900;
+  text-decoration: none;
+}
+
+.access-hover:hover {
+  font-size: 2.1rem;
+}
+
+.img-container img {
+  width: 300px;
+}
+
+.plato-quote {
+  line-height: 3rem;
+}
+
+.plato-quote p {
+  font-size: 2.5rem;
+}
+.plato-ref {
+  font-size: 2rem;
+}
+
+/*
+====================
+====================
+CONTACT STYLING
+====================
+====================
+*/
+
+#contact-bottom-border {
+  border-bottom: 2px solid #fff;
+}
+
+.contact-container {
+  width: 100%;
+  height: 100vh;
+  background: #152238;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.contact-container form {
+  background-color: #f3f3f3;
+  display: flex;
+  flex-direction: column;
+  padding: 2vh 4vw;
+  width: 80%;
+  max-width: 600px;
+  border-radius: 10px;
+}
+.contact-container form h3 {
+  font-size: 30px;
+  text-align: center;
+  color: #555;
+  font-weight: 700;
+  margin: 20px 0;
+}
+.contact-container form input, .contact-container form textarea {
+  border: 0;
+  margin: 10px 0;
+  padding: 20px;
+  outline: none;
+  background: #f3f3f3;
+  font-size: 20px;
+}
+.contact-container form button {
+  padding: 15px;
+  background: #ff9900;
+  color: #fff;
+  font-size: 25px;
+  border: 0;
+  outline: none;
+  cursor: pointer;
+  max-width: 300px;
+  border-radius: 15px;
+  margin-bottom: 20px;
+}
+
+/*
+====================
+====================
+ELEARNING STYLING
+====================
+====================
+ */
+
+ .elearning-header {
+   font-size: 3rem;
+   line-height: 3.5rem;
+   text-align: center;
+ }
+
+/*
+====================
+====================
+SIGNUP / LOGIN STYLING
+====================
+====================
+*/
+
+.signup-login-bg-image {
+   position: relative;
+   height: 100%;
+   padding-bottom: 56.25%;
+   background-image: url(img/signup-bg-img.jpg);
+   background-repeat: no-repeat;
+   background-position: center;
+   background-size: cover;
+ }
+
+ .signup-login-image-overlay {
+   position: absolute;
+   width: 100%;
+   height: 100%;
+   display: flex;
+   align-items: center;
+   color: #fff;
+ }
+
+ .signup-login-image-overlay h2 {
+   font-size: 2rem;
+   padding: 0 1rem;
+ }
+
+ .signup-login-image-overlay h4 {
+   font-size: 1.2rem;
+   line-height: 1.6rem;
+ }
+
+#signup-header {
+   font-size: 3rem;
+   margin: 3rem 0;
+ }
+
+ .signup-message {
+   font-size: 1.5rem;
+   text-align: center;
+   color: red;
+ }
+
+ .green-msg {
+   color: green;
+ }
+
+/*
+====================
+====================
+FOOTER STYLING
+====================
+====================
+ */
+ .page-footer {
+  height: 9rem;
+  background-color: #212529;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.page-footer p {
+  margin-bottom: 0;
+  font-size: 24px;
+}
+.footer-logo {
+  color: #fff;
+}
